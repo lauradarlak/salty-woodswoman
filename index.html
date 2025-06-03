@@ -39,15 +39,21 @@
         <div class="left">
           <h1>We’re Stocking <span>the Pantry</span></h1>
           <p>Be the first to know when our shelves are filled with wild-caught tins and forest-foraged goods. No spam, just salty dispatches.</p>
-          <form action="https://formsubmit.co/tin@saltywoodswoman.com" method="POST">
+          <form id="signup-form" action="https://formsubmit.co/ajax/90e7a18ed86e318e92d900e6eb05541e" method="POST">
             <input type="email" name="email" required>
             <button type="submit">Notify Me</button>
           </form>
+
+          <div id="form-message" style="display: none;">
+            <p>
+              <strong>You’re in.</strong>
+              <br><br>
+              Thanks for joining the salty little uprising. We’ll holler when the tins are packed.
+            </p>
+          </div>
           <small>
             Got a tin worth shouting about? Email us at <a href="mailto:tin@saltywoodswoman.com">tin@saltywoodswoman.com</a> to pitch a product or send a salty recommendation.
           </small>
-          <br>
-          <small>You’re in good company. We'll reach out when it's time to feast.</small>
       </div>
 
       <div class="right">
@@ -62,6 +68,6 @@
   </div>
 
 
-
+<script src="main.js"></script>
 </body>
 </html>
