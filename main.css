@@ -9,16 +9,25 @@ body {
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 
 .page-wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 main {
   flex: 1;
+  margin-bottom: 4rem;
 }
 
 header {
